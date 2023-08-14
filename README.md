@@ -16,7 +16,7 @@
 * Apache Parquet gère également **le schéma de données** sous forme de métadonnées stockées à la fin du fichier. Les schémas de données peuvent être **étendus ou modifiés** avec le temps sans avoir à réécrire l'ensemble des données.
 * La Figure 1 illustre la structure d'un fichier Parquet.
 <p align="center">
-  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/5ddfc4cb-c34f-41b5-9c0c-924bd06e933f" /><br/>
+  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/ea3e7c0d-0aca-453f-99da-44b724221ec9" /><br/>
   <i>Figure 1. Structure d'un fichier Parquet</i>
 </p>
 
@@ -32,7 +32,7 @@
   * Pour **Spark**, il faut privilégier **Parquet** pour sa capacité de compression de données (jusqu’à 75% avec Snappy) ce qui réduit les E/S sur disque et rend Spark SQL plus rapide.
 * La Figure 2 illustre la structure d'un fichier ORC.
 <p align="center">
-  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/c597ae8b-b346-49db-bdc5-c0bf94b7181a" /><br/>
+  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/7971b482-ae37-4a03-8b5d-120ace464d71" /><br/>
   <i>Figure 2. Structure d'un fichier ORC</i>
 </p>
 
@@ -52,7 +52,7 @@
 * Apache Avro est un format de **sérialisation** de données, compatible avec différents langages de programmation (Java, C, C++, Python, etc.) qui est facile à lire et à écrire. Avro embarque le schéma de données dispensant l'utilisateur d'écrire le code de sérialisation/désérialisation. Le fichier Avro sérialisé inclut déjà des métadonnées sur le schéma, ce qui permet de prendre en charge les éventuelles évolutions du schéma lors de la désérialisation.
 * La Figure 3 illustre la structure d'un fichier Avro.
 <p align="center">
-  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/9ea3ba34-a981-4292-b99d-c01c62e540c2" /><br/>
+  <img src="https://github.com/Cloud-Elit/parquet_orc_avro/assets/142179779/301ae905-de4b-4f20-bd7e-704baf7fc23f" /><br/>
   <i>Figure 3. Structure d'un fichier Avro</i>
 </p>
 
